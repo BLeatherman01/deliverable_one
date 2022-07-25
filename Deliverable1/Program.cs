@@ -7,7 +7,6 @@ namespace Deliverable1
         static void Main(string[] args)
         {
             {
-
                 bool keepGoing = true;
 
                 do
@@ -18,12 +17,9 @@ namespace Deliverable1
 
                     int result = Convert.ToInt32(people);
 
-
-
                     int bread = 2;
                     int pb = 2;
                     int jelly = 4;
-
 
                     Decimal tableSpoon = 0;
                     Decimal slices = 0;
@@ -36,7 +32,6 @@ namespace Deliverable1
                     slices = result * bread;
                     tableSpoon = result * pb;
                     teaSpoon = result * jelly;
-
 
                     Console.WriteLine("You need:");
                     Console.WriteLine($"{slices} slices of bread");
@@ -51,7 +46,6 @@ namespace Deliverable1
                     Console.WriteLine(Math.Ceiling(loaves) + " loaves of bread");
                     Console.WriteLine(Math.Ceiling(jarsPb) + " jars of peanut butter");
                     Console.WriteLine(Math.Ceiling(jarsJ) + " jars of jelly");
-                                           
 
                     Console.WriteLine("would you like to restart? Enter yes or y to continue, or enter any other key to exit.");
 
@@ -63,10 +57,8 @@ namespace Deliverable1
                         keepGoing = false;
                     }
                 }
-
                 while (keepGoing);
-
             }
         }
-    }   
+    }
 }
