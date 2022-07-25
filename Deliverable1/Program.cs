@@ -66,20 +66,6 @@ namespace Deliverable1
 
                 while (keepGoing);
 
-               
-
-               
-
-                
-
-
-
-
-
-
-
-
-
             }
         }
     }   
